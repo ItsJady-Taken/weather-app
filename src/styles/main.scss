@@ -1,0 +1,76 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    // background-color: #2f2f2f; 
+   
+}
+
+.container {
+    background: linear-gradient(180deg, rgb(4, 55, 92) 1%, rgb(15, 66, 169) 30%, rgb(53, 112, 232) 100%);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.search-city {
+    border: 0;
+    border-bottom: 1px solid white;
+    background: transparent;
+    outline: none;
+    padding: 10px;
+    color: white;
+    max-width: 300px;
+    font-size: 20px;
+}
+
+.search-city:focus {
+    border-bottom: 1px solid rgb(198, 198, 198);
+}
+
+.search-icon {
+    color: white;
+    background: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.search-icon:hover {
+    color: rgb(198, 198, 198);
+}
+
+.image-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+.image-content img {
+    width: 100%;
+    height: 100%;
+}
+
+.image-content p {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    bottom: -70px;
+}
+//importing core styling file
+$fa-font-path: '~@fortawesome/fontawesome-free/webfonts';
+
+// Import Font Awesome CSS
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+@import '~@fortawesome/fontawesome-free/scss/regular';
+@import '~@fortawesome/fontawesome-free/scss/brands';

@@ -12,15 +12,15 @@ module.exports = {
     plugins: [
         new htmlWebpackPlugin (
             {
-                template: './src/template.html',
+                template: './src/index.html',
             },
         ),
     ],
     module: {
         rules: [
             {
-                test: /\.css$/i,
-                use: ['style-loader', 'css-loader']
+                test: /\.scss$/i,
+                use: ['style-loader', 'css-loader' , 'sass-loader'],
             },
             {
                 test: /\.html$/i,
