@@ -11,23 +11,24 @@
                 <input type="text" id="search-city" class="search-city" placeholder="Search city name">
                 <button type="submit" id="search-icon" class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></button>
             </nav>         
+
             <main class="weather-content">
-             
-                <div class="image-content" id="image-content">
-                    <img id="weather-image" src="./images/sunNcloud.png" alt="sun and cloud">  
-                    <p class="weather-temperature">25°C</p> 
-                </div>
-                
+                <section class="weather-info">
+                    <div class="image-content" id="image-content">
+                      
+                    </div>
+                    <p class="weather-temperature" id="weather-temperature"></p> 
+                    <p class="weather-city" id="weather-city"></p>
+                </section>
+
                 <section class="weather-details">
                     <div class="wind-content" id="wind-content">
                         <img id="weather-image" src="./images/wind.png" alt="wind">  
-                        <p class="weather-wind">25km/h Wind</p>
-                        
+                        <p class="weather-wind" id="weather-wind"></p>        
                     </div>
                     <div class="humidity-content" id="humidity-content">
                         <img id="weather-image" src="./images/humidity.png" alt="humidity">  
-                        <p class="weather-humidity">25% Humidity</p>
-                        
+                        <p class="weather-humidity" id="weather-humidity"></p>
                     </div>
                 </section>
             </main>

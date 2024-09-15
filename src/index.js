@@ -14,3 +14,5 @@ searchCity.addEventListener('keypress', (event) => {
 searchIcon.addEventListener('click', () => {
     validValue(searchCity.value);
 })
+
+validValue('usa');
